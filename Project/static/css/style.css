@@ -1,0 +1,17 @@
+.neo-shadow {
+    box-shadow: 10px 10px 0px 0px #1a1a1a;
+}
+.neo-shadow-hover:hover {
+    box-shadow: 4px 4px 0px 0px #1a1a1a;
+    transform: translate(6px, 6px);
+}
+.progress-bar-fill {
+    transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
