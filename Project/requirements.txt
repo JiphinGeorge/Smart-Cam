@@ -1,6 +1,6 @@
-Flask==3.0.3
-tf_keras==2.16.0
-tensorflow==2.16.1
-numpy==1.26.4
-Pillow==10.3.0
-Werkzeug==3.0.3
+Flask
+tf_keras
+tensorflow
+numpy
+Pillow
+Werkzeug
